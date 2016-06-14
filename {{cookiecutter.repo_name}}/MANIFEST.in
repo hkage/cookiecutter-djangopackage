@@ -1,0 +1,1 @@
+recursive-include {{cookiecutter.app_name}} *.html *.png *.gif *js *.css *jpg *jpeg *svg *py

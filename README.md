@@ -1,6 +1,6 @@
 # cookiecutter-djangopackage
 
-This is a cookiecutter template for Django packages, inspired by [https://github.com/pydanny/cookiecutter-djangopackage] and customized to my personal defaults and needs.
+This is a cookiecutter template for Django packages, inspired by https://github.com/pydanny/cookiecutter-djangopackage and customized to my personal defaults and needs.
 
 ## Features
 

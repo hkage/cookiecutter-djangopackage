@@ -7,10 +7,12 @@ from setuptools import setup, find_packages
 exec(open('app_name/version.py').read())
 
 tests_require = [
-    'pytest==2.8.2',
-    'pytest-pep8==1.0.6',
-    'pytest-cov==2.2.0',
-    'pytest-django==2.9.1'
+    'pytest-pep8',
+    'pytest-cov',
+    'pytest-django'
+    # for pytest-runner to work, it is important that pytest comes last in
+    # this list: https://github.com/pytest-dev/pytest-runner/issues/11
+    'pytest',
 ]
 
 setup(name='{{ cookiecutter.repo_name }}',
@@ -43,7 +45,7 @@ setup(name='{{ cookiecutter.repo_name }}',
     packages=find_packages(exclude=['tests']),
     include_package_data=True,
     setup_requires=[
-        'pytest-runner==2.6.2',
+        'pytest-runner',
     ],
     install_requires=[
         'Django>=1.6.0'

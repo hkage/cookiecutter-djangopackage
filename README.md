@@ -8,7 +8,7 @@ This is a cookiecutter template for Django packages, inspired by https://github.
 * [Tox](https://tox.readthedocs.io/en/latest/) configuration
 * [Pytest](http://pytest.org/latest/) for unit testing
 * [Sphinx](http://www.sphinx-doc.org/en/stable/) documentation
-* [Bumpversion](https://github.com/peritus/bumpversion) for updating version information
+* (Optional)[Bumpversion](https://github.com/peritus/bumpversion) for updating version information
 * (Optional) Travis-CI configuration
 
 ## Usage

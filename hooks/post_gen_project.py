@@ -21,3 +21,5 @@ if __name__ == '__main__':
         remove_example_project(PROJECT_DIRECTORY)
     if '{{ cookiecutter.use_travis }}'.lower() != 'y':
         remove_file('.travis.yml')
+    if '{{ use_bumpversion }}'.lower() != 'y':
+        remove_file('.bumpversion.cfg')

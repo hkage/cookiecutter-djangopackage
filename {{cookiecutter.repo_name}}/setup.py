@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 
-exec(open('app_name/version.py').read())
+exec(open('{{ cookiecutter.app_name }}/version.py').read())
 
 classifiers = """
 'Development Status :: 3 - Alpha',

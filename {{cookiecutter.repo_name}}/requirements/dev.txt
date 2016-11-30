@@ -2,11 +2,4 @@
 
 coverage
 flake8
-mock
-pydocstyle
-pylint
-pytest
-pytest-django
-pytest-pep8
-pytest-cov
 Sphinx

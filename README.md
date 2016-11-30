@@ -4,7 +4,7 @@ This is a cookiecutter template for Django packages, inspired by https://github.
 
 ## Features
 
-* Support for Django >= 1.7
+* Support for Django >= 1.8
 * [Tox](https://tox.readthedocs.io/en/latest/) configuration
 * [Pytest](http://pytest.org/latest/) for unit testing
 * [Sphinx](http://www.sphinx-doc.org/en/stable/) documentation

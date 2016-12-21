@@ -1,5 +1,7 @@
 # cookiecutter-djangopackage
 
+[![Build Status](https://travis-ci.org/hkage/cookiecutter-djangopackage.svg?branch=master)](https://travis-ci.org/hkage/cookiecutter-djangopackage)
+
 This is a cookiecutter template for Django packages, inspired by https://github.com/pydanny/cookiecutter-djangopackage and customized to my personal defaults and needs. It replaces my old Django package template "django-app-skeleton".
 
 ## Features

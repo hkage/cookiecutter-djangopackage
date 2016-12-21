@@ -24,9 +24,9 @@ def remove_directory(directory):
 
 
 if __name__ == '__main__':
-    if '{{ cookiecutter.create_example_project }}'.lower() != 'y':
-        remove_directory('example')
+    #if '{{ cookiecutter.create_example_project }}'.lower() != 'y':
+    #    remove_directory('example')
     if '{{ cookiecutter.use_travis }}'.lower() != 'y':
         remove_file('.travis.yml')
-    if '{{ use_bumpversion }}'.lower() != 'y':
+    if '{{ cookiecutter.use_bumpversion }}'.lower() != 'y':
         remove_file('.bumpversion.cfg')

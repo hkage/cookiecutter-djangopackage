@@ -6,7 +6,7 @@ setup(
     name='cookiecutter-djangopackage',
     packages=[],
     version='0.1.1',
-    description='Cookiecutter template for Tornado based projects',
+    description='Cookiecutter template for Django applications',
     author='Henning Kage',
     author_email='henning.kage@gmail.com',
     url='https://github.com/hkage/cookiecutter-djangopackage',
